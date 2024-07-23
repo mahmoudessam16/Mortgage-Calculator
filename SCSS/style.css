@@ -1,0 +1,39 @@
+.input-error {
+  border-color: hsl(4, 69%, 50%) !important;
+}
+
+.bg-error {
+  background-color: hsl(4, 69%, 50%) !important;
+  border-color: hsl(4, 69%, 50%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.error-message {
+  color: hsl(4, 69%, 50%) !important;
+}
+
+.right-radius {
+  border-bottom-left-radius: 70px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.radius {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+input[type=radio] {
+  width: 15px;
+  height: 15px;
+  accent-color: hsl(61, 70%, 52%);
+}
+
+@media (max-width: 768px) {
+  .right-radius {
+    border-radius: 0;
+  }
+  .radius {
+    border-radius: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
