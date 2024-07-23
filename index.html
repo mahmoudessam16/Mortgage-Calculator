@@ -34,7 +34,7 @@
           <label for="amount" class="text-slate700 block mb-2 font-semibold text-sm md:text-md">Mortgage Amount</label>
           <div class="relative">
             <input type="number" id="amount" class="border border-slate300 rounded-md w-full pl-12 p-2 outline-none text-slate900 font-bold" />
-            <i class="fa-solid fa-sterling-sign pound-icon text-slate700 absolute left-0 top-0 rounded-l-md h-full w-10 text-sm md:text-lg bg-slate100 flex justify-center items-center border-t border-l border-b border-slate300"></i>
+            <p class="pound-icon font-bold text-slate700 absolute left-0 top-0 rounded-l-md h-full w-10 text-sm md:text-lg bg-slate100 flex justify-center items-center border-t border-l border-b border-slate300">£</p>
           </div>
           <span id="amount-error" class="error-message hidden">This field is required</span>
         </div>
@@ -99,16 +99,16 @@
         <div class="bg-slate1000 mt-5 p-7 border-t-4 border-lime rounded-md">
           <div>
             <p class="text-slate300 mb-4 text-sm md:text-md">Your monthly repayments</p>
-            <h3 class="text-3xl md:text-5xl font-semibold text-lime">
-              <i class="fa-solid fa-sterling-sign text-lime"></i>
+            <h3 class="text-3xl md:text-5xl font-semibold text-lime flex">
+              <p class="text-lime font-bold mr-2">£</p>
               <span id="monthly-repayments"></span>
             </h3>
           </div>
           <hr class="my-8">
           <div>
             <p class="text-slate300 mb-4 text-sm md:text-md">Total you will repay over the term</p>
-            <h3 class="text-xl md:text-2xl font-semibold text-slate100">
-              <i class="fa-solid fa-sterling-sign text-slate100"></i>
+            <h3 class="text-xl md:text-2xl font-semibold text-slate100 flex">
+              <p class="text-slate100 font-bold mr-2">£</p>
               <span id="total-repayment"></span>
             </h3>
           </div>
